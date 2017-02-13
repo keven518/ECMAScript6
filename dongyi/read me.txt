@@ -1,0 +1,5 @@
+1¡¢cnpm install --global babel-cli
+2¡¢cnpm install --save-dev babel-preset-es2015 babel-preset-latest
+3¡¢cnpm i browser-sync -g
+
+browser-sync start --server
