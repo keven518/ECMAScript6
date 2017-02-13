@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		'use strict'		
+		/*
+		const 做为变量是不可以修改
+					但作为对象他的属性是可以修改的
+
+		*/
+		const D = 'kv';
+		const E = {
+			name: '柯文',
+			say: function(n){
+				console.log(n+this.name + '我爱你');
+			}
+		}
+		E.name = '蔡曼曼';
+		E.say('kw');
+
+		console.log(D)
+		console.log(E)
+	</script>
+</body>
+</html>
